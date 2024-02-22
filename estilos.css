@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('mundo2.avif'); /* Substitua 'imagemmundo.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 36px;
+}
+.menu {
+    margin-top: 50px;
+}
+.menu a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.menu a:hover {
+    background-color: #0056b3;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona uma cor de fundo semitransparente ao formulário */
+    padding: 20px;
+    border-radius: 10px;
+}
